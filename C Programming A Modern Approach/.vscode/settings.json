@@ -1,8 +1,20 @@
 {
-    "nrf-connect.topdir": "${nrf-connect.sdk:2.2.0}",
-    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.2.0}",
     "files.associations": {
+        "__hash_table": "c",
+        "__tuple": "c",
+        "array": "c",
         "chrono": "c",
-        "complex": "c"
-    }
+        "compare": "c",
+        "cstddef": "c",
+        "type_traits": "c",
+        "limits": "c",
+        "ratio": "c",
+        "tuple": "c",
+        "variant": "c"
+    },
+    "nrf-connect.toolchain.path": "${nrf-connect.toolchain:2.2.0}",
+    "nrf-connect.topdir": "${nrf-connect.sdk:2.2.0}",
+    "nrf-connect.applications": [
+        "/Users/owen97779/Documents/Nordic/blink"
+    ]
 }
